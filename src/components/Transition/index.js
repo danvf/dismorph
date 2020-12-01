@@ -6,7 +6,7 @@ export default function Transition(props) {
     let lvCount = [];
     const lv = props.lv;
     for (let i = 0; i < lv; i++) {
-        lvCount.push(<TransitionImage/>);
+        lvCount.push(<TransitionImage key={i}/>);
     }
 
     return (
