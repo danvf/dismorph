@@ -7,7 +7,9 @@ import Main from './components/global/Main';
 // import Menu from './components/Menu/';
 // import Transition from './components/Transition';
 // import Level from './components/Level';
-import LevelWin from './components/LevelWin';
+// import LevelWin from './components/LevelWin';
+// import GameWin from './components/GameWin';
+import GameOver from './components/GameOver';
 
 function App() {
   useEffect(() => {
@@ -24,7 +26,7 @@ function App() {
 
   return (
     <Main>    
-      <LevelWin song="Careless Whisper" artist="George Michael" />  
+      <GameOver/>  
     </Main>
   );
 }
