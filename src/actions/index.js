@@ -1,5 +1,2 @@
-export * from "./statusActions";
+export * from "./gameActions";
 
-export const CONSTANTS = {
-    START_GAME: "START_GAME",
-};

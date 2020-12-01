@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import statusReducer from "./statusReducer";
+import statusReducer from "./gameReducer";
 
 export default combineReducers({
-    appStatus: statusReducer,
+    game: statusReducer,
 });
